@@ -1,0 +1,11 @@
+{
+  "strategy": "bullish_rectangle",
+  "total_days": 2828,
+  "positive": 1377,
+  "confirmed": 182,
+  "forming": 1195,
+  "no_pattern": 1451,
+  "positive_rate": 0.48691654879773694,
+  "first_day": "2015-08-10",
+  "last_day": "2026-07-24"
+}

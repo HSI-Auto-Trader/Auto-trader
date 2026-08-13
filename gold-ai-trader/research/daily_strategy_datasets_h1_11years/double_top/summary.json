@@ -1,0 +1,11 @@
+{
+  "strategy": "double_top",
+  "total_days": 2828,
+  "positive": 1302,
+  "confirmed": 298,
+  "forming": 1004,
+  "no_pattern": 1526,
+  "positive_rate": 0.4603960396039604,
+  "first_day": "2015-08-10",
+  "last_day": "2026-07-24"
+}

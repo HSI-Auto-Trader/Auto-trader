@@ -1,0 +1,11 @@
+{
+  "strategy": "flag",
+  "total_days": 2828,
+  "positive": 1088,
+  "confirmed": 0,
+  "forming": 1088,
+  "no_pattern": 1740,
+  "positive_rate": 0.38472418670438474,
+  "first_day": "2015-08-10",
+  "last_day": "2026-07-24"
+}

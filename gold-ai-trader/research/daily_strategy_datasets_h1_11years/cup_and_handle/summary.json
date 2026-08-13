@@ -1,0 +1,11 @@
+{
+  "strategy": "cup_and_handle",
+  "total_days": 2828,
+  "positive": 179,
+  "confirmed": 88,
+  "forming": 91,
+  "no_pattern": 2649,
+  "positive_rate": 0.0632956152758133,
+  "first_day": "2015-08-10",
+  "last_day": "2026-07-24"
+}

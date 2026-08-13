@@ -1,0 +1,11 @@
+{
+  "strategy": "ascending_triangle",
+  "total_days": 2828,
+  "positive": 675,
+  "confirmed": 106,
+  "forming": 569,
+  "no_pattern": 2153,
+  "positive_rate": 0.23868458274398868,
+  "first_day": "2015-08-10",
+  "last_day": "2026-07-24"
+}

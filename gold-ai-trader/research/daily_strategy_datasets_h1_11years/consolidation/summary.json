@@ -1,0 +1,11 @@
+{
+  "strategy": "consolidation",
+  "total_days": 2828,
+  "positive": 2265,
+  "confirmed": 0,
+  "forming": 2265,
+  "no_pattern": 563,
+  "positive_rate": 0.8009193776520509,
+  "first_day": "2015-08-10",
+  "last_day": "2026-07-24"
+}

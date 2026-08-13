@@ -1,0 +1,31 @@
+{
+  "market_data": "data/raw/gold_h1_11years.csv",
+  "first_day": "2015-08-10",
+  "last_day": "2026-07-24",
+  "market_days": 2828,
+  "strategies": [
+    "falling_wedge",
+    "symmetrical_triangle",
+    "inverse_head_and_shoulders",
+    "cup_and_handle",
+    "ascending_triangle",
+    "bullish_rectangle",
+    "double_bottom",
+    "double_top",
+    "flag",
+    "consolidation"
+  ],
+  "windows": [
+    48,
+    64,
+    80,
+    100,
+    120,
+    160,
+    200
+  ],
+  "image_bars": 200,
+  "image_size": 224,
+  "clean_training_images": true,
+  "review_images_are_training_inputs": false
+}

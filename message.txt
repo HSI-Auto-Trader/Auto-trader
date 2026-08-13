@@ -1,0 +1,802 @@
+The biggest misconception in retail algorithmic trading is that hedge funds have "secret indicators."
+
+They don't.
+
+What firms like **Citadel**, **Two Sigma**, **Renaissance Technologies**, **Jane Street**, and **DE Shaw** do is engineer **thousands of features** from many data sources and combine them with rigorous validation, risk management, and execution. Most of their edge comes from **feature engineering, data quality, execution, and research**, not a magic RSI setting.
+
+Below is a comprehensive list of features you can engineer from your OHLCV data.
+
+---
+
+# 1. Price Features
+
+```
+Open
+High
+Low
+Close
+
+Median Price
+Typical Price
+Weighted Close
+OHLC Average
+
+HL2
+HLC3
+OHLC4
+
+Close/Open
+High/Open
+Low/Open
+
+High-Low
+Close-Open
+
+Gap
+Gap %
+
+True Range
+```
+
+---
+
+# 2. Returns
+
+```
+Return 1
+Return 2
+Return 3
+Return 5
+Return 10
+Return 20
+Return 50
+
+Log Return
+
+Cumulative Return
+
+Rolling Return
+
+Forward Return
+
+Normalized Return
+```
+
+---
+
+# 3. Moving Averages
+
+Simple Moving Average
+
+```
+SMA
+
+5
+10
+20
+30
+50
+100
+200
+500
+```
+
+Exponential
+
+```
+EMA
+
+5
+10
+20
+30
+50
+100
+200
+```
+
+Weighted
+
+```
+WMA
+HMA
+VWMA
+KAMA
+DEMA
+TEMA
+ZLEMA
+```
+
+---
+
+# 4. Trend
+
+```
+MACD
+
+Signal
+
+Histogram
+
+ADX
+
+DI+
+
+DI-
+
+Parabolic SAR
+
+Aroon
+
+SuperTrend
+
+Ichimoku
+
+Linear Regression
+
+Trend Slope
+
+EMA Slope
+
+Regression Slope
+
+Moving Average Angle
+```
+
+---
+
+# 5. Momentum
+
+```
+RSI
+
+RSI EMA
+
+RSI SMA
+
+Stochastic
+
+Stochastic RSI
+
+CCI
+
+ROC
+
+Momentum
+
+Williams %R
+
+PPO
+
+TRIX
+
+TSI
+
+Ultimate Oscillator
+
+Awesome Oscillator
+```
+
+---
+
+# 6. Volatility
+
+```
+ATR
+
+ATR EMA
+
+ATR %
+
+Rolling Std
+
+Rolling Variance
+
+Historical Volatility
+
+Bollinger Bands
+
+%B
+
+Band Width
+
+Keltner Channels
+
+Donchian Channels
+
+Chaikin Volatility
+
+Parkinson Volatility
+
+Garman-Klass
+
+Yang-Zhang
+```
+
+---
+
+# 7. Volume
+
+With tick volume:
+
+```
+Tick Volume
+
+Tick Volume EMA
+
+Tick Volume SMA
+
+Volume Change
+
+Volume Z-score
+
+OBV
+
+MFI
+
+CMF
+
+VWAP
+
+VWMA
+
+Volume Oscillator
+
+Ease of Movement
+
+Force Index
+```
+
+---
+
+# 8. Candlestick Features
+
+```
+Body
+
+Upper Wick
+
+Lower Wick
+
+Range
+
+Body %
+
+Upper Wick %
+
+Lower Wick %
+
+Bullish
+
+Bearish
+
+Doji
+
+Hammer
+
+Hanging Man
+
+Inverted Hammer
+
+Shooting Star
+
+Spinning Top
+
+Marubozu
+
+Engulfing
+
+Harami
+
+Morning Star
+
+Evening Star
+
+Piercing
+
+Dark Cloud Cover
+
+Three White Soldiers
+
+Three Black Crows
+```
+
+---
+
+# 9. Rolling Statistics
+
+```
+Mean
+
+Median
+
+Max
+
+Min
+
+Std
+
+Variance
+
+Skewness
+
+Kurtosis
+
+Entropy
+
+Quantiles
+
+Rolling Correlation
+
+Rolling Covariance
+
+Coefficient of Variation
+
+Z-score
+```
+
+---
+
+# 10. Time Features
+
+```
+Hour
+
+Minute
+
+Day
+
+Week
+
+Month
+
+Quarter
+
+Year
+
+Day of Week
+
+Weekend
+
+Session
+
+Asian
+
+London
+
+New York
+
+Overlap
+
+Minutes Until Close
+
+Minutes Since Open
+```
+
+---
+
+# 11. Support / Resistance
+
+```
+Rolling High
+
+Rolling Low
+
+Daily High
+
+Daily Low
+
+Weekly High
+
+Weekly Low
+
+Monthly High
+
+Monthly Low
+
+Distance to High
+
+Distance to Low
+
+Distance to EMA
+
+Distance to VWAP
+
+Distance to Pivot
+
+Distance to Fibonacci
+
+Distance to ATR Bands
+```
+
+---
+
+# 12. Lag Features
+
+```
+Open Lag 1-100
+
+High Lag 1-100
+
+Low Lag 1-100
+
+Close Lag 1-100
+
+Volume Lag 1-100
+
+ATR Lag
+
+RSI Lag
+
+MACD Lag
+```
+
+---
+
+# 13. Rolling Windows
+
+For windows:
+
+```
+5
+
+10
+
+20
+
+50
+
+100
+
+200
+```
+
+Calculate
+
+```
+Mean
+
+Std
+
+Min
+
+Max
+
+Median
+
+ATR
+
+Volume
+
+RSI
+
+Momentum
+
+Correlation
+```
+
+---
+
+# 14. Price Structure
+
+```
+Higher High
+
+Higher Low
+
+Lower High
+
+Lower Low
+
+Swing High
+
+Swing Low
+
+Pivot High
+
+Pivot Low
+
+Trend Direction
+
+Break of Structure
+
+Change of Character
+
+Liquidity Sweep
+
+Equal Highs
+
+Equal Lows
+
+Inside Bar
+
+Outside Bar
+```
+
+---
+
+# 15. Distance Features
+
+```
+Distance EMA20
+
+Distance EMA50
+
+Distance EMA200
+
+Distance SMA200
+
+Distance VWAP
+
+Distance Daily High
+
+Distance Daily Low
+
+Distance Weekly High
+
+Distance Monthly High
+
+Distance ATR
+```
+
+---
+
+# 16. Acceleration
+
+```
+Velocity
+
+Acceleration
+
+EMA Acceleration
+
+MACD Acceleration
+
+RSI Acceleration
+
+Slope
+
+Curvature
+```
+
+---
+
+# 17. Multi-Timeframe
+
+For every M5 candle attach
+
+```
+M15 RSI
+
+M30 RSI
+
+H1 RSI
+
+H4 RSI
+
+D1 RSI
+
+EMA
+
+ATR
+
+ADX
+
+Trend
+
+MACD
+
+Volume
+```
+
+This is extremely common.
+
+---
+
+# 18. Regime Detection
+
+```
+Trending
+
+Ranging
+
+Volatile
+
+Calm
+
+Bull
+
+Bear
+
+Sideways
+
+High Volatility
+
+Low Volatility
+```
+
+---
+
+# 19. Statistical Signals
+
+```
+Z-score
+
+Percentile Rank
+
+Outlier Score
+
+Rolling Rank
+
+Deviation
+
+Normalization
+
+Mean Reversion Score
+```
+
+---
+
+# 20. Market Microstructure (limited with MT5 OHLC)
+
+Institutional datasets often include:
+
+```
+Bid
+
+Ask
+
+Spread
+
+Mid Price
+
+Order Book
+
+Market Depth
+
+Trades
+
+Aggressive Buyers
+
+Aggressive Sellers
+
+Buy Volume
+
+Sell Volume
+
+Order Imbalance
+
+Liquidity
+
+Slippage
+
+Quote Changes
+```
+
+These are **not** available in standard MT5 OHLC history.
+
+---
+
+# 21. Calendar Features
+
+```
+NFP
+
+CPI
+
+FOMC
+
+ECB
+
+BoE
+
+PPI
+
+GDP
+
+Retail Sales
+
+Holiday
+
+Friday Close
+
+Month End
+
+Quarter End
+```
+
+These matter for gold because macroeconomic events can dominate price action.
+
+---
+
+# 22. Cross-Asset Features
+
+Many quantitative funds don't model gold in isolation. They also include:
+
+```
+Dollar Index (DXY)
+
+Silver
+
+US10Y Yield
+
+US2Y Yield
+
+EURUSD
+
+USDJPY
+
+SP500
+
+NASDAQ
+
+VIX
+
+Oil
+
+Bitcoin
+```
+
+Correlations and relative moves can be informative.
+
+---
+
+# 23. Machine-Learning Features
+
+```
+PCA Components
+
+Autoencoder Embeddings
+
+Wavelet Coefficients
+
+Fourier Components
+
+Rolling PCA
+
+Hidden States (HMM)
+
+Cluster Labels
+
+Regime IDs
+```
+
+---
+
+# 24. Target Labels
+
+Instead of predicting "next candle up/down," many practitioners define labels closer to trading decisions, for example:
+
+```
+TP hit before SL
+
+Return over next N bars
+
+Maximum Favorable Excursion (MFE)
+
+Maximum Adverse Excursion (MAE)
+
+Future Volatility
+
+Future Trend
+
+Future Drawdown
+```
+
+---
+
+# A practical feature set
+
+For your gold M5/H1 project, a realistic and strong starting point would be around **300–800 engineered features**, including:
+
+* Multiple moving averages and their slopes.
+* Momentum and volatility indicators across several window lengths.
+* Candlestick geometry and pattern flags.
+* Rolling statistics and lagged values.
+* Multi-timeframe features (H1 and H4 mapped onto M5).
+* Session and calendar information.
+* Support/resistance distance measures.
+* Market regime classification.
+* Cross-asset context if you can obtain those datasets.
+
+This is already a substantial feature space for models like XGBoost, LightGBM, CatBoost, or neural networks, while remaining manageable for experimentation. The key is not to include every possible feature indiscriminately, but to validate which ones improve out-of-sample trading performance and avoid overfitting.

@@ -1,0 +1,11 @@
+{
+  "strategy": "inverse_head_and_shoulders",
+  "total_days": 2828,
+  "positive": 169,
+  "confirmed": 67,
+  "forming": 102,
+  "no_pattern": 2659,
+  "positive_rate": 0.05975954738330976,
+  "first_day": "2015-08-10",
+  "last_day": "2026-07-24"
+}
