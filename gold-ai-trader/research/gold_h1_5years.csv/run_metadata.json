@@ -1,5 +1,5 @@
 {
-  "market_data": "data/raw/gold_h1_11years.csv",
+  "market_data": "data/raw/gold_h1_5years.csv",
   "first_day": "2015-08-10",
   "last_day": "2015-08-21",
   "market_days": 10,

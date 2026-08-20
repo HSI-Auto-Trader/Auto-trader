@@ -18,11 +18,11 @@ from typing import Any
 REPO_HINT = Path(__file__).resolve().parent / "gold-ai-trader"
 
 DATA_RELATIVE_PATH = Path(
-    "data/raw/gold_h1_11years.csv"
+    "data/raw/gold_h1_5years.csv"
 )
 
 OUTPUT_RELATIVE_PATH = Path(
-    "research/daily_strategy_datasets_h1_11years"
+    "research/gold_h1_5years.csv"
 )
 
 # Each detector will test these chart lengths
@@ -60,7 +60,7 @@ END_DATE = None
 # None = process all market days across the full 11 years
 # For testing, use for example LIMIT_DAYS = 30
 # Start with a short smoke run; set to None for the full dataset.
-LIMIT_DAYS = None
+LIMIT_DAYS = 10
 
 
 # ============================================================

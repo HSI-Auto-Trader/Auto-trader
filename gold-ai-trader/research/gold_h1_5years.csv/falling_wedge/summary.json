@@ -1,0 +1,11 @@
+{
+  "strategy": "falling_wedge",
+  "total_days": 10,
+  "positive": 1,
+  "confirmed": 1,
+  "forming": 0,
+  "no_pattern": 9,
+  "positive_rate": 0.1,
+  "first_day": "2015-08-10",
+  "last_day": "2015-08-21"
+}

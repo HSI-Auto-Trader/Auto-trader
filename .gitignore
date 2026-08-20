@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+*.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Heavy generated images (Keeps manifest CSVs, ignores large PNG directories)
+**/_shared_clean_images/
+**/images/
+**/review_images/
+*.zip
+
+# OS / Editor files
+.DS_Store
+.vscode/
+.idea/

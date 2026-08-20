@@ -1,0 +1,11 @@
+strategy,total_days,positive,confirmed,forming,no_pattern,positive_rate,first_day,last_day
+falling_wedge,10,1,1,0,9,0.1,2015-08-10,2015-08-21
+symmetrical_triangle,10,1,1,0,9,0.1,2015-08-10,2015-08-21
+inverse_head_and_shoulders,10,1,1,0,9,0.1,2015-08-10,2015-08-21
+cup_and_handle,10,0,0,0,10,0.0,2015-08-10,2015-08-21
+ascending_triangle,10,1,0,1,9,0.1,2015-08-10,2015-08-21
+bullish_rectangle,10,2,0,2,8,0.2,2015-08-10,2015-08-21
+double_bottom,10,5,2,3,5,0.5,2015-08-10,2015-08-21
+double_top,10,3,0,3,7,0.3,2015-08-10,2015-08-21
+flag,10,4,0,4,6,0.4,2015-08-10,2015-08-21
+consolidation,10,7,0,7,3,0.7,2015-08-10,2015-08-21

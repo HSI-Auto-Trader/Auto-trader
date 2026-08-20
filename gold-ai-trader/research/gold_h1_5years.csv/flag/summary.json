@@ -1,0 +1,11 @@
+{
+  "strategy": "flag",
+  "total_days": 10,
+  "positive": 4,
+  "confirmed": 0,
+  "forming": 4,
+  "no_pattern": 6,
+  "positive_rate": 0.4,
+  "first_day": "2015-08-10",
+  "last_day": "2015-08-21"
+}

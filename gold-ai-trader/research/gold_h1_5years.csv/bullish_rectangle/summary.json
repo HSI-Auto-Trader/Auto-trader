@@ -1,0 +1,11 @@
+{
+  "strategy": "bullish_rectangle",
+  "total_days": 10,
+  "positive": 2,
+  "confirmed": 0,
+  "forming": 2,
+  "no_pattern": 8,
+  "positive_rate": 0.2,
+  "first_day": "2015-08-10",
+  "last_day": "2015-08-21"
+}

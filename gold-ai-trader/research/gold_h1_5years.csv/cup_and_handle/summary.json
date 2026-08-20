@@ -1,0 +1,11 @@
+{
+  "strategy": "cup_and_handle",
+  "total_days": 10,
+  "positive": 0,
+  "confirmed": 0,
+  "forming": 0,
+  "no_pattern": 10,
+  "positive_rate": 0.0,
+  "first_day": "2015-08-10",
+  "last_day": "2015-08-21"
+}

@@ -1,0 +1,11 @@
+{
+  "strategy": "double_top",
+  "total_days": 10,
+  "positive": 3,
+  "confirmed": 0,
+  "forming": 3,
+  "no_pattern": 7,
+  "positive_rate": 0.3,
+  "first_day": "2015-08-10",
+  "last_day": "2015-08-21"
+}
