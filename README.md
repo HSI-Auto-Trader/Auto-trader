@@ -30,3 +30,54 @@ An end-to-end algorithmic trading workspace designed for Gold (XAU/USD). This pr
 │   ├── data/raw/            # Historical market data (CSV)
 │   └── research/            # Generated CNN datasets, manifests, & metadata
 └── README.md
+
+```
+
+---
+
+## 🚀 Quick Start
+
+### 1. Clone & Set Up Environment
+
+```bash
+git clone [https://github.com/ilyas0junior/Auto-trader.git](https://github.com/ilyas0junior/Auto-trader.git)
+cd Auto-trader
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+```
+
+### 2. Generate Dataset
+
+Place your historical OHLC CSV file inside `gold-ai-trader/data/raw/` and execute the pipeline:
+
+```bash
+python3 Message.py
+
+```
+
+### 3. Launch Dashboard
+
+Visualize the generated dataset and candlestick charts in your browser:
+
+```bash
+streamlit run app.py
+
+```
+
+---
+
+## ⚙️ Dataset Output Schema
+
+The pipeline exports `all_strategies_manifest.csv` containing:
+
+* **Sample Identification:** `sample_id`, `strategy`, `label`, `status`, `confidence`
+* **Timing:** `day_utc`, `start_time`, `end_time`, `breakout_time`
+* **Trade Parameters:** `entry_price`, `stop_loss`, `target_price`, `risk_reward`, `atr_at_entry`
+* **Image Paths:** Relative links to clean $224 \times 224$ PNG candlestick charts
+
+```
+
+```
